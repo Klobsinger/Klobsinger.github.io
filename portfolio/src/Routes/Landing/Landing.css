@@ -1,16 +1,23 @@
-.logo-btn {
-  display: inline-block;
-  width: 50px; 
-  height: 50px;
-}
-
-.logo-btn img {
-  width: 100%; 
-  height: auto;
-  vertical-align: middle;
-}
-
 .github {
   width: 63px;
   height: 60px;
+}
+
+.logo-btn {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 50px; 
+  height: 50px; 
+}
+
+.headshot {
+  border-radius: 20%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.377);
+  width: 250px; 
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto; 
 }
