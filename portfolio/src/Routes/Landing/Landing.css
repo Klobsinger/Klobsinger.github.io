@@ -1,23 +1,55 @@
-.github {
-  width: 63px;
-  height: 60px;
-}
-
-.logo-btn {
-  display: inline-flex; 
-  align-items: center; 
-  justify-content: center; 
-  width: 50px; 
-  height: 50px; 
-}
-
 .headshot {
   border-radius: 20%;
-  border: 3px solid #fff;
+  border: 6px solid #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.377);
   width: 250px; 
   height: 250px;
   object-fit: cover;
   display: block;
-  margin: 0 auto; 
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+
+.landing-container .greeting-message {
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+
+.landing-container .light-message {
+  font-weight: 400; 
+  color: #6c757d;
+  font-size: 1.5rem;
+}
+
+
+.landing-container .bold-name-message {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.landing-container .profession-message {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.landing-container .intro-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center; 
+  gap: 5px; 
+  justify-content: start; 
+}
+
+.logo-btn {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center;
 }
