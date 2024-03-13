@@ -14,7 +14,7 @@ export function Landing() {
           <Card style={{ border: 'none', backgroundColor: 'transparent' }}>
             <Card.Body className="custom-card-body">
               {/* Greeting and name with size and style adjustments */}
-              <Card.Title className="greeting-message">Hello,</Card.Title>
+              <Card.Title className="greeting-message">Hello</Card.Title>
               <Card.Title>
                 <span className="light-message">I'm </span>
                 <span className="bold-name-message">Kevin</span>
