@@ -1,0 +1,5 @@
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  background-image: radial-gradient(circle, rgba(8, 0, 0, 0.89) 0%, rgba(255,255,255,0) 70%);
+  right: 0;
+  width: 5%;
+}
